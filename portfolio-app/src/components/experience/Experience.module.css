@@ -60,7 +60,7 @@
     font-size: 18px;
     letter-spacing: 0.75px;
 }
-@media screen and (max-width:510px) {
+@media screen and (max-width:830px) {
 
     .container > div {
         flex-direction: column;
