@@ -1,0 +1,10 @@
+[
+    {   "role" : "Engineer",
+        "organisation" : "L & T Technology and Services",
+        "startDate": "June, 2023",
+        "endDate": "Present",
+        "experiences": ["Worked on frontend development", "Worked on Product Life Cycle Management"],
+        "skills":["HTML","CSS","JavaScript","React"],
+        "imageSrc": "experience/ltts.png"
+    }
+]

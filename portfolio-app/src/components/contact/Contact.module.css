@@ -1,0 +1,49 @@
+.margin{
+    margin-top: 88px;
+    box-shadow: 0px -0.1px 0.1px whitesmoke;
+    border: 0.1px solid whitesmoke;
+}
+.container{
+    color: var(--color-text);
+    margin-top: 4px;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+}
+.conacts {
+    margin-top: 130px;
+}
+.conacts div{
+    display: flex;
+    gap: 38px;
+}
+.conacts div a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.conacts div a:visited{
+    color: rgba(255, 0, 0, 0.842);
+}
+.conacts div a:hover{
+    color: rgb(46, 252, 224);
+}
+.conacts div a:active{
+    color: rgb(38, 0, 255);
+}
+
+
+@media screen and (max-width:830px) {
+    .container{
+        flex-direction: column;
+    }
+    .conacts{
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 80px;
+        margin-top: 80px;
+    }
+}

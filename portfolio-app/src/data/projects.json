@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Weather App",
+        "imageSrc": "projects/projectImg.png",
+        "description": "This is a project made to learn React by building an app which fetches weather data of searched city across the world.",
+        "skills": ["React", "HTML", "CSS","JavaScript"],
+        "demo": "https://weatherspp.netlify.app/",
+        "source": "https://github.com/sumanthgurramkonda/react-app/tree/main/weatherapp"
+    },
+    {
+        "title": "Spring Security",
+        "imageSrc": "projects/projectImg.png",
+        "description": "This project has been made to learn Spring security through building REST APIs which is secured by spring.",
+        "skills": ["Springboot", "Spring Security"],
+        "demo": "https://weatherspp.netlify.app/",
+        "source": "https://github.com/sumanthgurramkonda/spring-security"
+    }
+]

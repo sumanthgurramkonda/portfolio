@@ -1,0 +1,8 @@
+[{
+    "title"   : "Frontend",
+    "skills" : ["skills/frontend/css.png","skills/frontend/html.png","skills/frontend/javaScript.png","skills/frontend/react.png"]
+},{
+    "title"   : "Backend",
+    "skills" : ["skills/backend/java.png","skills/backend/springboot.png","skills/backend/MySQL.png"]
+}]
+

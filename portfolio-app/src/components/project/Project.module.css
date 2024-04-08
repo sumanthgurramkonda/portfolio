@@ -1,0 +1,94 @@
+section {
+    color: var(--color-text);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 88px;
+}
+section > h2{
+    letter-spacing: 0.75px;
+    margin-bottom: 28px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 28px;
+    align-items: center;
+}
+.project {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    padding: 12px;
+    width: 28%;
+    background: blueviolet;
+    background: linear-gradient(180deg, rgb(169, 102, 231) 0%, blueviolet 100%);;
+    border-radius: 8px;
+    box-shadow: 4px 4px 5px violet;
+    transition: ease-out;
+    transition-duration: 0.4s;
+    width: 300px;
+}
+.project:hover{
+    transform: translateY(-8px);
+}
+.project img{
+    display: flex;
+    align-self: center;
+    border-radius: 18px;
+    width: 90%;
+}
+.project h2{
+    font-size: 28px;
+    letter-spacing: 0.75px;
+    padding: 12px;
+}
+.project p{
+    font-size: 22px;
+    letter-spacing: 0.75px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.project div{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 28px;
+}
+.project div ul{
+    list-style: none;
+}
+.project div ul li {
+    background: rgb(253, 132, 253);
+    padding: 12px 20px;
+    border-radius: 12px;
+    color: black;
+    letter-spacing: 0.75px;
+    font-size: 18px;
+}
+.project div ul li:hover{
+    box-shadow: 2px 2px 5px wheat, -2px -2px 5px wheat;
+}
+
+.container div:last-of-type{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.container div:last-of-type a{
+    text-decoration: none;
+    background: rgb(245, 200, 116);
+    padding: 12px 18px;
+    border-radius: 18px;
+}
+.container div:last-of-type a:hover{
+    box-shadow: 2px 2px 3px wheat, -2px -2px 3px wheat;
+}
+
+@media screen and (max-width:830) {
+    .container{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
